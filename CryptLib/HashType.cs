@@ -7,9 +7,9 @@ namespace CryptLib
     /// <summary>
     /// ハッシュのタイプ
     /// </summary>
-    public enum HashType
+    public enum HashType:int
     {
-        MD5,SHA256,SHA512
+        MD5=32,SHA256=64,SHA512=128
     }
     /// <summary>
     /// HashType拡張
